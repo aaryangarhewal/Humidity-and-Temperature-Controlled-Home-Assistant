@@ -16,6 +16,8 @@ power.
 automatically (In Auto Mode)
 3. Monitor LIVE room temperature & Humidity reading on Smartphone
 4. Control Home appliances through the Internet (WiFi).
+## Adafruit IO Dashboard :
+![](Adafruit-IO-Dashboard.jpg)
 ## Required Components: -
 ### 1. ESP8266 :
 The ESP8266 WiFi Module is a self-contained SOC with integrated TCP/IP protocol
@@ -26,6 +28,7 @@ from another application processor.
 The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It
 uses a capacitive humidity sensor and a thermistor to measure the surrounding
 air, and spits out a digital signal on the data pin.
+![](DHT11.jpg)
 ### 3. 2-Channel Relay :
 2-Channel 5V Relay Module is a relay interface board, it can be controlled
 directly by a wide range of microcontrollers such as Arduino, esp8266 etc. It uses
@@ -39,10 +42,14 @@ relay operates the normally open or normally closed contacts.
 An adaptor is a special device for connecting electrical equipment to a power
 supply, or for connecting different pieces of electrical or electronic equipment
 together.
+![](Required_Components.jpg)
 ## Software Requirements :
 1. Arduino IDE
 2. Adafruit App
 ## Circuit -
+![](Circuit.jpg)
+## ON/OFF Configuration with Temperature -
+![](On-Off_Configuration_with_Temperature.jpg)
 ## Applications :
 * Industrial Automation
 * Home Automation
